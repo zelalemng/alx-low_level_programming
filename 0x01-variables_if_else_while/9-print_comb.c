@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry points
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -10,13 +10,13 @@ int main(void)
 	
 	for (d = 0; d < 10; d++)
 	{
-		putchar(d + '0');
+		pitchar(d + '0');
 		if (d < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	putchar('\n');
+	putcher('\n');
 	return (0);
 }
