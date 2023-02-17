@@ -10,13 +10,13 @@ int main(void)
 	
 	for (d = 0; d < 10; d++)
 	{
-		pitchar(d + '0');
+		putchar(d + '0');
 		if (d < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }
