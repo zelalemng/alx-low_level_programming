@@ -10,11 +10,11 @@ int main(void)
 
 	while (a < 1024)
 	{
-		if ((i % 3 == 0) || (i % 5 == 0))
+		if ((a % 3 == 0) || (a % 5 == 0))
 		{
-			z += i;
+			z += a;
 		}
-		i++;
+		a++;
 	}
 	printf("%d\n", z);
 	return (0);
