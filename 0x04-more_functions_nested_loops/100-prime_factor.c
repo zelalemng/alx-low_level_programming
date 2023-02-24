@@ -12,7 +12,7 @@ int main(void)
 
 	for (x = 1; x <= square; x++)
 	{
-		if (number % x ==0)
+		if (number % x == 0)
 		{
 			maxf = number / x;
 		}
