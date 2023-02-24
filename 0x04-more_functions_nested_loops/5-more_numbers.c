@@ -12,7 +12,7 @@ void more_numbers(void)
 	{
 		while (start <= end)
 		{
-			_purchar(start > 9 ? (start / 10) + '0' : start + '0');
+			_putchar(start > 9 ? (start / 10) + '0' : start + '0');
 
 			if (start > 9)
 				_putchar((start % 10) + '0');
