@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_revv - Orints astring in reverse
+ * print_rev - Orints astring in reverse
  * @s: The string to print
  * Return: void
  */
