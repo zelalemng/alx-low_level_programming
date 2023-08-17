@@ -5,7 +5,7 @@
  * @h: linked list pointer
  *
  * Description: prints all the elements of doubly linked list
- * REturn: number of nodes
+ * Return: number of nodes
  */
 size_t print_dlistint(const dlistint_t *h)
 {
