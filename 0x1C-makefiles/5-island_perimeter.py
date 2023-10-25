@@ -2,6 +2,7 @@
 """Defines an island perimeter measuring function."""
 
 def island_perimeter(grid):
+
     width = len(grid[0])
     height = len(grid)
     edges = 0
